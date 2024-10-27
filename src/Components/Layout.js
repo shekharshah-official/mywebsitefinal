@@ -4,7 +4,6 @@ const projects = [
   { id: 1, name: 'Project Alpha' },
   { id: 2, name: 'Project Beta' },
   { id: 3, name: 'Project Gamma' },
-  // Add more projects as needed
 ];
 
 const Sidebar = ({ isOpen }) => {
@@ -58,8 +57,8 @@ const Layout = () => {
         <Navbar toggleSidebar={toggleSidebar} />
 
         <main className="flex-1 p-4 bg-gray-100">
-          <h2 className="text-2xl font-semibold mb-4">Welcome to the Project Dashboard</h2>
-          <p>Your content goes here...</p>
+          <h2 className="text-2xl font-semibold mb-4">Welcome to the shekhar Dashboard</h2>
+          <p>Every thing will be here soon.</p>
         </main>
       </div>
 
