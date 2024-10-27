@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnimatedRobot from './AnimatedRobot';
 
 const projects = [
   { id: 1, name: 'Project Alpha' },
@@ -59,6 +60,7 @@ const Layout = () => {
         <main className="flex-1 p-4 bg-gray-100">
           <h2 className="text-2xl font-semibold mb-4">Welcome to the shekhar Dashboard</h2>
           <p>Every thing will be here soon...
+          <AnimatedRobot />
             
           </p>
         </main>

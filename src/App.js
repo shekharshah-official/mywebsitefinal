@@ -7,8 +7,7 @@ import AnimatedRobot from "./Components/AnimatedRobot";
 function App() {
   return (
    <>
-   <AnimatedRobot />
-   <Layout />
+      <Layout />
    </>
   );
 }
