@@ -3,8 +3,7 @@ import AnimatedRobot from './AnimatedRobot';
 
 const projects = [
   { id: 1, name: 'Project Alpha' },
-  { id: 2, name: 'Project Beta' },
-  { id: 3, name: 'Project Gamma' },
+  { id: 2, name: '' },
 ];
 
 const Sidebar = ({ isOpen }) => {
@@ -19,7 +18,9 @@ const Sidebar = ({ isOpen }) => {
           <li
             key={project.id}
             className="py-2 px-4 hover:bg-gray-700 rounded-md cursor-pointer">
+              <a href='https://lakshmi-flower-shop.vercel.app/'>
             {project.name}
+              </a> 
           </li>
         ))}
       </ul>
@@ -59,7 +60,7 @@ const Layout = () => {
 
         <main className="flex-1 p-4 bg-gray-100">
           <h2 className="text-2xl font-semibold mb-4">Welcome to the shekhar Dashboard</h2>
-          <p>Every thing will be here soon...
+          <p>Every thing will be here soon... 
           <AnimatedRobot />
             
           </p>
