@@ -58,7 +58,9 @@ const Layout = () => {
 
         <main className="flex-1 p-4 bg-gray-100">
           <h2 className="text-2xl font-semibold mb-4">Welcome to the shekhar Dashboard</h2>
-          <p>Every thing will be here soon.</p>
+          <p>Every thing will be here soon...
+            
+          </p>
         </main>
       </div>
 
